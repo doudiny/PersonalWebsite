@@ -1,9 +1,10 @@
-@media (max-width: 575px) { 
+@media (max-width: 575px) {
   .navbar {
     width: 100%;
   }
 }
-@media (min-width: 575px) { 
+
+@media (min-width: 575px) {
   .navbar {
     position: fixed;
     left: 50%;
