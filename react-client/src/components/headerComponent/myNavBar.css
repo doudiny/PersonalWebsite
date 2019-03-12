@@ -1,0 +1,14 @@
+@media (max-width: 575px) { 
+  .navbar {
+    width: 100%;
+  }
+}
+@media (min-width: 575px) { 
+  .navbar {
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 80%;
+    max-width: 900px;
+  }
+}
