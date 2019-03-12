@@ -1,117 +1,215 @@
 import React, { Component } from 'react';
+import style from './pages.css';
 
 class HomePage extends Component {
   render() {
     return (
       <div>
-        Home Page
-        <div>
-        Home Page
+        HomePage
+        
+      <div>
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
       </div>
       <div>
-        Home Page
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
+      </div>
+      <div>
+        HomePage
       </div>
       </div>
     )
