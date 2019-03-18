@@ -9,35 +9,27 @@ module.exports = {
     path: DIST_DIR,
     filename: 'bundle.js',
   },
-  module : {
-    rules : [
+  module: {
+    rules: [
       {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
       },
       {
-        test: /\.scss$/,
-        use: [
-            "style-loader", // creates style nodes from JS strings
-            "css-loader", // translates CSS into CommonJS
-            "sass-loader" // compiles Sass to CSS, using Node Sass by default
-        ]
-      },
-      {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
-      },
-      {
-        test: /\.jpg/,
-        loader: 'file-loader'
-      },
-      {
-        test : /\.jsx?/,
-        include : SRC_DIR,
-        loader : 'babel-loader',      
+        test: /\.jsx?/,
+        include: SRC_DIR,
+        loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015']
-       }
+        }
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      },
+      {
+        test: /\.(ico|jpe?g|png|gif|webp|svg|mp4|webm|wav|mp3|m4a|aac|oga)(\?.*)?$/,
+        loader: "file-loader"
       }
     ]
   },

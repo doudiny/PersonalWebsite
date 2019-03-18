@@ -15,6 +15,7 @@ In this repository, the code of my own personnal website is stored. It can be us
 ```
 npm run react-dev
 npm run server-dev
+firebase deploy
 ```
 ## Author
 Yann Doudin

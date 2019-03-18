@@ -15,7 +15,7 @@ class App extends Component {
           <MyNavBar/>
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="resume" exact path="/Resume" component={ResumePage} />
-          <Route name="resume" exact path="/Blog" component={BlogPage} />
+          <Route name="blog" exact path="/Blog" component={BlogPage}/>
           <Footer/>
         </div>
       </Router>

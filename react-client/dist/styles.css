@@ -45,10 +45,21 @@ body, html, footer{
 
 #formComponent{
   background-color: #A5D6A7;
-  padding-bottom: 100px;
-  padding-top : 100px;
 }
 
+#resumeTable{
+  max-width: 800px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+#resumeContainer {
+  background-color: #A5D6A7 !important;
+  border-color: #A5D6A7;
+  padding-bottom: 100px;
+  padding-top : 100px;
+  height : 900px;
+}
 
 #pageContainer {
   text-align: left;

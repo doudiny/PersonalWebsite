@@ -24,6 +24,8 @@
     "express": "^4.16.4",
     "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
+    "primeicons": "^1.0.0",
+    "primereact": "^3.1.0",
     "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-client": "^1.0.1",
@@ -33,12 +35,16 @@
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
+    "file-loader": "^3.0.1",
+    "postcss-loader": "^3.0.0",
+    "svg-inline-loader": "^0.8.0",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   }
