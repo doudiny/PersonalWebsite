@@ -1,0 +1,6 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #E8F5E9!important;
+    border-radius: 10 !important;
+    border-color: indigo !important;
+    color : black !important;
+}
