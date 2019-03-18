@@ -1,48 +1,90 @@
-header {
-  display: block;
-  background-color: black;
-  width: 100%;
-  height: 50px;
-  color: white;
+.headroom--unfixed {
+  background-color: white;
+}
+.headroom--pinned {
+  background-color: #A5D6A7;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
+.headroom-disable-animation {
+  background-color: #A5D6A7;
+  animation: changeColor 1s ease-in-out 1 forwards;
 }
 
-body {
-  padding-top: 0.5rem;
+body, html, footer{
+  font-family: 'quicksand';
+  font-weight: lighter;
+  width: 100% !important;
 }
 
-#headerButtons {
-  margin: 0;
-  padding: 0;
+
+#headerComponent{
+  text-align: left;
+  margin: 0px auto;
+  padding: 20px;
 }
 
-.navButton {
-  float: left;
+@keyframes changeColor {
+  0%{
+    background-color: #A5D6A7;
+  }
+  100%{
+    background-color: white;
+  }
 }
 
-.app-content {
-  margin-top: 0.5em!important;
-  padding-left: 1rem;
-  padding-right: 1rem;
+
+#myForm {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  margin: 0px auto;
+  max-width: 800px;
 }
 
-.app-content .row > [class^="col"] {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  background-color: #E5EDF5;
-  border: 1px solid #C9C1D5;
-  color: #5F5F5F;
+#formComponent{
+  background-color: #A5D6A7;
+  padding-bottom: 100px;
+  padding-top : 100px;
 }
 
-footer {
-  display: block;
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  color: white;
+
+#pageContainer {
+  text-align: left;
+  margin: 0 auto;
+}
+
+#sandboxContainer {
+  background-color: #66BB6A;
+  padding-bottom: 100px;
+  padding-top : 100px;
+}
+
+#introComponent {
+  max-width: 800px;
+  text-align: left;
+  margin: 0px auto;
+  background-color: #A5D6A7 !important;
+  border-color: #A5D6A7;
+}
+
+#introContainer {
+  background-color: #A5D6A7 !important;
+  padding-bottom: 100px;
+  padding-top : 100px;
+}
+
+#fullCardComponent {
+  display: inline-block;
+  text-align: left;
+
+}
+
+
+#cardsRow {
+  max-width: 1050px;
+  margin: auto;
+  text-align: center;
 }
 
