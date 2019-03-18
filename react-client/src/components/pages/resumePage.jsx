@@ -7,11 +7,13 @@ import 'primeicons/primeicons.css';
 import style from './pages.css';
 import Experience from './experiencesComponent/experiences.jsx';
 import Skills from './skillsComponent/skills.jsx';
+import { Col, Row } from 'react-bootstrap';
 
 class ResumePage extends Component {
   render() {
     return (
       <div id="resumeContainer">
+      
         <TabView id="resumeTable">
           <TabPanel header="Studies">
             <Studies />

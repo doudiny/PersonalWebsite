@@ -48,7 +48,8 @@ body, html, footer{
 }
 
 #resumeTable{
-  max-width: 800px;
+  display: table;
+  max-width: 1000px;
   text-align: left;
   margin: 0px auto;
 }
