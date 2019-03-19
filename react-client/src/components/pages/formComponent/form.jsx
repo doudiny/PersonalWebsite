@@ -33,7 +33,7 @@ class Forml extends Component {
             </Form.Group>
 
             <Button variant="primary" type="submit" size="lg" block >
-              Send me a message
+              Send me a message (not working yet)
             </Button>
           </Form>
         </Fade>

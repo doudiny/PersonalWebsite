@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { ReactJS, Ruby, AngularJS, HTML, RubyOnRails, CSS, Typescript, Javascript, CSharp, Scrum, Git, DesignPattern, UML, Java, C, Prolog, Android, ReactNative, NodeJS, DotNet, Docker } from '../minisComponent/pins.jsx';
 import Forml from './formComponent/form.jsx';
 import FullCard from '../minisComponent/card.jsx';
 import { Col, Row } from 'react-bootstrap';
 import Intro from './introductionComponent/introduction.jsx';
 import Fade from 'react-reveal/Fade';
+import { ReactJS, HTML, CSS, Javascript } from '../minisComponent/pins.jsx';
 
 class HomePage extends Component {
   render() {

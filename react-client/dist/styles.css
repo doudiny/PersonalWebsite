@@ -13,7 +13,10 @@
 body, html, footer{
   font-family: 'quicksand';
   font-weight: lighter;
-  width: 100% !important;
+  display: block;
+  position: relative;
+  left: 0px;
+  right: 0px;
 }
 
 
@@ -21,6 +24,7 @@ body, html, footer{
   text-align: left;
   margin: 0px auto;
   padding: 20px;
+  z-index: 500 !important;
 }
 
 @keyframes changeColor {
@@ -59,12 +63,15 @@ body, html, footer{
   border-color: #A5D6A7;
   padding-bottom: 100px;
   padding-top : 100px;
-  height : 900px;
 }
 
-#pageContainer {
-  text-align: left;
-  margin: 0 auto;
+#pageContainer, #fullcontent, #app {
+  display: block !important;
+  position: relative !important;
+  left : 0px !important;
+  right : 0px !important;
+  margin : 0px !important;
+  padding : 0px !important;
 }
 
 #sandboxContainer {
@@ -100,3 +107,7 @@ body, html, footer{
   text-align: center;
 }
 
+#radarComponent{
+  width: 280px !important;
+	height: 280px !important;
+}

@@ -1,14 +1,30 @@
 import React, { Component } from 'react';
+import { Card } from 'primereact/card';
+import { Row } from 'react-bootstrap';
+import { AngularJS, HTML, CSS, Typescript } from '../../minisComponent/pins.jsx';
+
 
 
 
 class Experience extends Component {
 
   render() {
+    const headerPl = (
+      <img alt="Card" src={require('./img/pl.jpg')} />
+    );
     return (
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
+      <Row>
+        <Card title="Panier Local" subTitle="2018–2019" style={{ width: '300px' }} className="ui-card-shadow" header={headerPl}>
+          <div>Currently, I work alongside my studies at Panier Local and help them maintain their
+            web platform. I had the opportunity to work with Angular as part of an update to their
+            website, which put into practice what I learned in class and familiarize myself with the
+            world of work.
+          </div>
+          <div>
+            <AngularJS /><HTML /><CSS /><Typescript />
+          </div>
+        </Card>
+      </Row>
     )
   }
 }
